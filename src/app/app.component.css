@@ -1,0 +1,7 @@
+header {
+  display: block;
+  height: 85px;
+  padding: 10px;
+  padding: var(--content-padding);
+  box-shadow: 0px 5px 25px var(--shadow-color);
+}
