@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterModule, RouterOutlet } from '@angular/router';
-import { MovieComponent } from './movie/movie.component';
-import { HomeComponent } from './home/home.component';
+import { MovieComponent } from './components/movie/movie.component';
+import { HomeComponent } from './components/home/home.component';
 
 @Component({
   selector: 'app-root',

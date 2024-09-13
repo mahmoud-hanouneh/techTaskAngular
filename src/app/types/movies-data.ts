@@ -1,4 +1,4 @@
-export interface MoviesData {
+export interface MovieData {
   Title: string;
   Year: number;
   Rated: string;
@@ -24,4 +24,5 @@ export interface MoviesData {
   Production: string;
   Website: string;
   Response: boolean;
+  Error: string;
 }
