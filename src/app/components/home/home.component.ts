@@ -38,7 +38,6 @@ export class HomeComponent implements OnInit {
   constructor() {}
 
   isLoading = false;
-  // moviesSearchResult: MovieData[] | null = [];
   moviesSearchResult: MovieData[] | null = null;
 
   movieService: MoviesService = inject(MoviesService);
